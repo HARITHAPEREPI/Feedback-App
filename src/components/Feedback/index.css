@@ -1,0 +1,93 @@
+.feedback-question-container {
+  background-color: #ffffff;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.feedback-question {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+.emojis-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.emoji-button {
+  background-color: transparent;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji {
+  width: 50px;
+  height: 50px;
+}
+
+.emoji-name {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+.love-emoji {
+  width: 50px;
+  height: 50px;
+}
+
+.thank-you-text {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0f172a;
+  margin: 10px;
+  text-align: center;
+}
+
+.paragraph {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin: 10px;
+}
+
+.app-container {
+  background-color: linear-gradient(#ffeeee, #ffc0bb, #ffebeb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px;
+}
